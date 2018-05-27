@@ -10,7 +10,7 @@ class Song < ActiveRecord::Base
 
     Artist.find_or_create_by(name: "Drake")
 
-    
+    binding.pry
 
     self.artist_id = Artist.find_or_create_by(name: "Drake").id
 
