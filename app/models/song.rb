@@ -12,7 +12,7 @@ class Song < ActiveRecord::Base
 
     binding.pry
 
-    self.artist_id = drake_id.to_i
+    self.artist_id = drake_id
 
     # when this method is called it should assign the song's artist to Drake
   end
